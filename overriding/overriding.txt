@@ -1,0 +1,27 @@
+class Parent1(): 
+          
+ 
+    def show1(self): 
+        print("Inside Parent1") 
+          
+
+class Parent2(): 
+          
+  
+    def show2(self): 
+        print("Inside Parent2") 
+          
+          
+
+class Child(Parent1, Parent2): 
+ 
+    def show1(self): 
+        print("Inside Child") 
+     
+        
+ 
+obj = Child() 
+  
+obj.show1() 
+obj.show2()
+obj.show1()
